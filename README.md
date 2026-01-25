@@ -42,7 +42,10 @@ python update_all_git_branches.py --help
 # 推送當前目錄下所有專案的新分支
 python push_all_git_branches.py
 
-# 推送指定目錄的所有分支
+# 推送指定目錄下所有專案的的分支, 可選擇是否推送那些專案
+python push_all_git_branches.py "E:\Projects\\"
+
+# 推送指定目錄下所有專案的的所有分支
 python push_all_git_branches.py "E:\Projects\\" --all
 
 # 強制推送所有分支
